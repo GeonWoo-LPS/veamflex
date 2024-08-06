@@ -112,7 +112,7 @@ body {
 }
 
 .main_contents {
-    flex-basis: 320px;
+    width: 320px;
     background-color: #222;
     box-sizing: border-box;
     border-radius: 10px;
@@ -145,6 +145,7 @@ body {
     margin: 0 10px 10px 10px;
     background-color: #111;
     border-radius: 10px;
+    border: 0;
 }
 
 .sidebar_header {
@@ -209,4 +210,14 @@ body {
     background-color: #333333;
     margin: 5px 0 6px 0;
 
+}
+
+.footer {
+    background-color: #111;
+    height: 77px;
+    line-height: 77px;
+}
+
+.footer p {
+    color: #666;
 }
