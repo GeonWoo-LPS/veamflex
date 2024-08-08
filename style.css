@@ -148,6 +148,10 @@ body {
     border: 0;
 }
 
+.main_contents button:hover {
+    cursor: pointer;
+}
+
 .sidebar_header {
     display: flex;
     justify-content: flex-start;
@@ -190,6 +194,10 @@ body {
 
 .sidebar_menu ul li {
     font-size: 12px;
+}
+
+.sidebar_menu ul li:hover {
+    cursor: pointer;
 }
 
 .sidebar_menu ul li:nth-child(2):before {
